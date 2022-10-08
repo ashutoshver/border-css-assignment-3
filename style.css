@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(26, 172, 172) ;
+    color: white;
+    padding: 12px;
+    font-size: 32px;
+    font-family:Arial, serif, sans-serif ;
+}
+
+.image1{
+    display: block;
+    margin-top: 72px;
+    text-align: center;
+}
+.image1 img{
+    padding: 0;
+    margin-right: 50px;
+}
+.i1{
+border: 13px solid rgb(26, 172, 172);
+height: 190px;
+width: 200px;
+}
+.i2{
+border: 13px dashed rgb(26, 172, 172);
+height: 190px;
+width: 200px;
+}
+.i3{
+border: 13px dotted rgb(26, 172, 172);
+height: 190px;
+width: 200px;
+}
+
+.image2{
+display: block;
+margin-top: 72px;
+text-align: center;
+}
+.image2 img{
+padding: 0;
+margin-right: 50px;  
+}
+.i4{
+border: 13px ridge rgb(26, 172, 172);  
+height: 190px;
+width: 200px;
+}
+.i5{
+border: 13px groove rgb(26, 172, 172);  
+height: 190px;
+width: 200px;
+}
+
+.image3{
+display: block;
+margin-top: 72px;
+text-align: center;
+}
+.image3 img{
+padding: 0;
+margin-right: 50px;  
+}
+.i6{
+    border: 13px double rgb(26, 172, 172);  
+    height: 190px;
+    width: 200px;   
+}
+.i7{
+     
+    height: 190px;
+    width: 200px;  
+    margin-bottom: 8px; 
+}
+
+.lorem{
+    margin-top: 110px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    position: absolute;
+    width: 980px;
+    height: 400px;
+    border-top: 13px solid green;
+    border-right: 13px solid magenta;
+    border-bottom: 13px solid blue;
+    border-left: 13px solid crimson;
+    background-color: lightseagreen;
+    color: white;
+}
+h3{
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.in p{
+    margin-top: 10px;
+    padding: 17px 27px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    text-align: justify;
+}
+
+.footer{
+    height: 70px;
+    margin-top: 100px;
+    background-color: lightseagreen;
+}
+.footer ul li{
+    display: inline-block;
+}
+ul{
+    margin-left: 40%;
+}
+li{
+    padding-right: 45px;
+    margin-top: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
